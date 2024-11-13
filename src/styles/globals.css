@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 768px) {
+  body {
+    padding: 0 16px; /* 모바일에서 좌우 패딩 추가 */
+  }
+
+  nav {
+    flex-direction: column; /* 내비게이션을 세로로 정렬 */
+    align-items: center; /* 중앙 정렬 */
+  }
+
+  .nav-links {
+    flex-direction: column; /* 링크를 세로로 정렬 */
+    gap: 10px; /* 링크 간 간격 추가 */
+  }
+}
